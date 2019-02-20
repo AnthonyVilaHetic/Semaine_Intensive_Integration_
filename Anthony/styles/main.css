@@ -80,6 +80,14 @@ header nav ul {
 
 
 
+.HomePod__img {
+  display: flex;
+  height: 20%;
+  
+
+}
+
+
 
 #footer__container,#footer__container:before,#footer__container:after,#footer__container *,#footer__container *:before,#footer__container *:after {
   box-sizing: content-box;
