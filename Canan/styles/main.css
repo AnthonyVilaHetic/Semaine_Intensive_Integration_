@@ -131,11 +131,18 @@ p{
   width: 40%;
 }
 
+/* Line */
+
+.main__section__line{
+  border-top: .1rem solid #DDD;
+  margin-top: 4rem;
+}
+
 /* Section seven */
 
 .main__section__seven{
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .main__section__seven__text{
@@ -143,15 +150,28 @@ p{
   margin: 0 auto;
 }
 
-.main__section__seven_One{
+.main__section__seven_one{
   width: 40%;
 }
 
-.main__section__seven_One , img{
+.main__section__seven__apps{
+  height: 9.375rem;
+  display: flex;
+  justify-content: center;
+}
+
+.main__section__seven_one, img{
+  width: 9%;
+  padding: 2rem 3rem;
+}
+
+.main__section__seven_img{
   width:14%;
 }
 
-.main__section__seven_One , h1{
+.main__section__seven_img
+
+.main__section__seven_one , h1{
   margin-top: 0.5rem;
   margin-bottom: 2rem;
 }
