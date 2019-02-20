@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "SF Display Regular";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: "SF Display Medium";
+  font-weight: 500;
+  src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+}
+
+@font-face {
+  font-family: "SF Display Light";
+  font-weight: 200;
+  src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
+}
+
+.container{
+  width: 75%;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: "SF Display Regular";
+  font-size: 4.75rem;
+  text-align: center;
+}
+
+h2{
+  font-family: "SF Display Regular";
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3{
+  font-family: "SF Display Regular";
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+p{
+  font-family: "SF Display Light", sans-serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  letter-spacing: .1rem;
+  text-align: center;
+}
+
+/* Section 3 : Vidéo */
+.main__section__three__text h1{
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 6%;
+}
+
+.main__section__three__video p{
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 4%;
+}
+
+/* Section 4 : 2.5KG, SIRI, AirPlay */
+.main__section__four{
+  display: flex;
+  padding: 3rem 0rem;
+
+}
+
+.main__section__four__title{
+  font-size: 3.75rem;
+  font-family: "SF Display Regular", sans-serif;
+  margin: 0 auto;
+}
+
+.main__section__four__side{
+  width:70%;
+  padding: 3rem 1rem;
+}
+
+#main__section__four__center{
+  padding: 3rem 1rem;
+  border-left: 0.0625rem solid black;
+  border-right: 0.0625rem solid black;
+}
+
+.main__section__four__text{
+  font-size: 1rem;
+}
+
+/* Section 5 */
+
+.main__section__five{
+  margin-top: 1rem;
+}
+
+.main__section__five__info__title{
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 2.5rem;
+}
+
+.main__section__five__info__text{
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+/* Section 6 : 2 Iphones */
+
+.main__section__six{
+  display: flex;
+  justify-content: space-around;
+  height: 18.75rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.main__section__six img{
+  width: 85%;
+}
+
+.main__section__six p{
+  font-size: 1rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.main__section__six__left{
+  width: 40%;
+}
+
+/* Section seven */
+
+.main__section__seven{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.main__section__seven__text{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main__section__seven_One{
+  width: 40%;
+}
+
+.main__section__seven_One , img{
+  width:14%;
+}
+
+.main__section__seven_One , h1{
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
