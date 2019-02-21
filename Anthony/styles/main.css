@@ -156,3 +156,11 @@ padding-left: 41%
   padding-bottom: 2%;
 }
   
+.main__section__two .main__section__two__content #homePod_Black img{
+  height: 400px;
+}
+
+.main__section__two .main__section__two__content #homePod_White img{
+  height: 400px;
+}
+
