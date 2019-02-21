@@ -8,7 +8,10 @@
   src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
 }
 
-
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
 
 h1{
   font-family: "SF Display Regular";
@@ -25,19 +28,19 @@ h2{
   text-align: center;
   margin: 0%;
   letter-spacing: .1rem;
+  
 }
 
 p{
   font-family: "SF Display Regular";
-font-size: 	0.875rem;
-line-height: 140%;
-font-kerning: 150%;
-font-family: "SF Display Light";
-font-size: 1.1rem;
-line-height: 150%;
-letter-spacing: .1rem;
-text-align: center;
-margin: 0%;
+  font-size: 	0.875rem;
+ line-height: 140%;
+ font-kerning: 150%;
+
+ font-size: 1.1rem;
+ letter-spacing: .1rem;
+ text-align: center;
+ margin: 0%;
 }
 a{
   font-family: "SF Display Regular";
@@ -79,18 +82,25 @@ header nav {
 header nav ul, .main__section__two__content {
   display: flex;
   justify-content: space-between;
+  
 }
 ul li {
   text-decoration: none;
   list-style: none;
-  justify-content: space-between;
   display: flex;
-  align-items: center;
+  padding-top: 1%;
+  padding-bottom:1%;
+  justify-content: space-between;
+ 
+ 
 }
+.home{
+  position: fixed;}
 
 .main__section__one__content{
   justify-content: center;
   text-align: center;
+
 }
 #link_subheader{
   color:#66BBFF;
@@ -102,18 +112,11 @@ ul li {
 .main__img__one{
   height: 35%;
   width:35%;
+  
+
+  
 }
-button{
-  border-radius:8%;
-  background:black;
-  color:#BBBBBB;
-  justify-content: center;
-  text-align: center;
-  border: 1.5px solid; 
-  width:10%;
-  font-family:"SF Pro Text Regular";
-  font-size:1em;
-}
+
 #logo-header{
   width: 16px;
   padding-top: 15%;
@@ -127,10 +130,10 @@ ul {
   height: 55%;
 }
 .main__section__first__content__paragraph{
-text-justify:center;
-text-align: center;
-width:100%;
-height:30%;
+  text-justify:center;
+  text-align: center;
+  width:100%;
+  height:30%;
 
 }
 .main__content__subparagraph{
@@ -138,21 +141,45 @@ height:30%;
   padding-top: 10%;
 }
 #subheader_h2{
-  padding-top: 1%
+  padding-top: 1%;
+  width: 75%;
+  margin: 0 auto;
+  padding-left:0.8%; 
 }
 #subheader_p{
   width: 19%;
   height: 2%;
-padding-left: 41%
+  margin: 0 auto;
 
 
 }
+button{
+  border-radius:8%;
+  background:black;
+  color:#BBBBBB;
+  justify-content: center;
+  text-align: center;
+  border: 1.5px solid; 
+  width:15%;
+  font-size:1em;
+  
+}
 #subheader_button{
   padding-top: 2%;
+  display: block;
+  width: 65%;
+  margin: 0 auto;
+  font-size:1.25rem;
   
 }
 #subheader_a{
   padding-top: 3%;
   padding-bottom: 2%;
+
 }
-  
+#header_a{
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+}
+
