@@ -1,0 +1,158 @@
+ body{
+  src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+  margin: 0;
+}
+@font-face {
+  font-family: "SF Display Light";
+  font-weight: 200;
+  src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
+}
+
+
+
+h1{
+  font-family: "SF Display Regular";
+  font-size: 5rem;
+  text-align: center;
+  width: 100%;
+  
+  
+}
+
+h2{
+  font-family: "SF Display Regular";
+  font-size: 2rem;
+  text-align: center;
+  margin: 0%;
+  letter-spacing: .1rem;
+}
+
+p{
+  font-family: "SF Display Regular";
+font-size: 	0.875rem;
+line-height: 140%;
+font-kerning: 150%;
+font-family: "SF Display Light";
+font-size: 1.1rem;
+line-height: 150%;
+letter-spacing: .1rem;
+text-align: center;
+margin: 0%;
+}
+a{
+  font-family: "SF Display Regular";
+  margin: 0%;
+  text-decoration: none;
+  color:white ;
+  
+}
+header {
+  background-color: #2D2D2D;
+  width: 100%;
+  margin-top: 0%;
+  height: auto;
+}
+header nav {
+  height: 3%;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+}
+  .Homepod{
+    margin: 0 -30px;
+    justify-content: space-around;
+  }
+
+.main__section__one__content{
+  height: 200%;
+  width: 100%;
+  background-color:#000000;
+  font-size: 1rem;
+  color: white;
+  
+  
+}
+
+header nav ul, .main__section__two__content {
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.main__section__one__content{
+  justify-content: center;
+  text-align: center;
+}
+#link_subheader{
+  color:#66BBFF;
+  padding-top: 50%;
+  margin-top:25%
+
+ }
+
+.main__img__one{
+  height: 35%;
+  width:35%;
+}
+button{
+  border-radius:8%;
+  background:black;
+  color:#BBBBBB;
+  justify-content: center;
+  text-align: center;
+  border: 1.5px solid; 
+  width:10%;
+  font-family:"SF Pro Text Regular";
+  font-size:1em;
+}
+#logo-header{
+  width: 16px;
+  padding-top: 15%;
+ 
+}
+ul {
+ margin: 0; }
+
+.search{
+  width: 55%;
+  height: 55%;
+}
+.main__section__first__content__paragraph{
+text-justify:center;
+text-align: center;
+width:100%;
+height:30%;
+
+}
+.main__content__subparagraph{
+  text-align: center;
+  padding-top: 10%;
+}
+#subheader_h2{
+  padding-top: 1%
+}
+#subheader_p{
+  width: 19%;
+  height: 2%;
+padding-left: 41%
+
+
+}
+#subheader_button{
+  padding-top: 2%;
+  
+}
+#subheader_a{
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+  
