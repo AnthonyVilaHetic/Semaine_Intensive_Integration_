@@ -157,6 +157,7 @@ padding-left: 41%
 }
   
 .main__section__two{
+  padding: 2%;
   display: flex;
   justify-content: center;
 }
@@ -166,4 +167,24 @@ padding-left: 41%
   height: 414px;
 }
 
+.main__section__two .main__section__two__content  img{
+  height: 414px;
+}
+.main__section__three__content h2{
+  padding: 1%;
+}
 
+.main__section__three__content ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main__section__three__content ul li {
+  padding-right: 10%;
+}
+
+.lastCara{
+  border-bottom: 600px;
+  border-bottom-color: black;
+}
